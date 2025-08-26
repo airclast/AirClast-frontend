@@ -49,13 +49,12 @@ export function Sidebar({ isOpen, onClose }) {
                             <span>Forecast</span>
                         </a>
 
-                        <a
-                            href="#"
+                        <Link to={`dashboard`}
                             className="flex items-center gap-3 px-3 py-2 text-slate-300 hover:text-white hover:bg-slate-700 rounded-md transition-colors"
                         >
                             <LayoutDashboard className="h-5 w-5" />
                             <span>Dashboard</span>
-                        </a>
+                        </Link>
 
                         <a
                             href="#"

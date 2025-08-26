@@ -8,6 +8,8 @@ import Home from "../Home";
 import { WeatherDashboard } from "../weather-dashboard";
 import Signin from "../authentication/Signin";
 import Signup from "../authentication/Signup";
+import Dashboard from "../dashboard";
+import VoiceAssistant from "../voice-assistance";
 
 
   
@@ -29,6 +31,14 @@ import Signup from "../authentication/Signup";
         {
             path:'weatherdashboard',
             element:<WeatherDashboard></WeatherDashboard>
+        },
+        {
+            path:'dashboard',
+            element:<Dashboard></Dashboard>
+        },
+        {
+            path:'dashboard/aibot',
+            element:<VoiceAssistant></VoiceAssistant>
         },
         // {
         //     path:'login',
